@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PortfolioComponent } from './portfolio.component';
+import { GetInvolvedComponent } from './get-involved.component';
 
-describe('PortfolioComponent', () => {
-  let component: PortfolioComponent;
-  let fixture: ComponentFixture<PortfolioComponent>;
+describe('GetInvolvedComponent', () => {
+  let component: GetInvolvedComponent;
+  let fixture: ComponentFixture<GetInvolvedComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PortfolioComponent]
+      imports: [GetInvolvedComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(PortfolioComponent);
+    fixture = TestBed.createComponent(GetInvolvedComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

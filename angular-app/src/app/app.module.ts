@@ -6,24 +6,22 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { ProfessionalComponent } from './professional/professional.component';
+import {OurWorkComponent} from "./our-work/our-work.component";
+import {GetInvolvedComponent} from "./get-involved/get-involved.component";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    HomeComponent,
-    AboutComponent,
-    ContactComponent,
-    PortfolioComponent,
-    ProfessionalComponent
+    declarations: [
+        HeaderComponent,
+        HomeComponent,
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        AppComponent
+    ],
+    providers: [],
+  exports: [
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
