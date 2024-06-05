@@ -14,11 +14,13 @@ import {GetInvolvedComponent} from "./get-involved/get-involved.component";
         HeaderComponent,
         HomeComponent,
     ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        AppComponent
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    AppComponent,
+    AboutComponent,
+    ContactComponent
+  ],
     providers: [],
   exports: [
   ],

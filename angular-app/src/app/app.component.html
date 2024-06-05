@@ -1,16 +1,15 @@
 <div class="home-container">
   <nav class="navbar">
     <ul>
-      <li><a routerLink="/" class="active">Home</a></li>
-      <li><a routerLink="/about">About</a></li>
-      <li><a routerLink="/get-involved">Get Involved</a></li>
-      <li><a routerLink="/our-work">Our Work</a></li>
-      <li><a routerLink="/contact">Contact</a></li>
+      <li><a routerLink="/" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+      <li><a routerLink="/get-involved" routerLinkActive="active">Get Involved</a></li>
+      <li><a routerLink="/our-work" routerLinkActive="active">Our Work</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
     </ul>
   </nav>
   <div class="content">
+    <router-outlet></router-outlet>
   </div>
-  <app-about></app-about>
-  <app-contact></app-contact>
 </div>
 

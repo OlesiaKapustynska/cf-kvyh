@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {RouterLink, RouterOutlet} from '@angular/router';
+import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
 import {AppModule} from "./app.module";
 import {AboutComponent} from "./about/about.component";
 import {ContactComponent} from "./contact/contact.component";
@@ -10,7 +10,7 @@ import {OurWorkComponent} from "./our-work/our-work.component";
   standalone: true,
   imports: [RouterOutlet,
     RouterLink,
-    OurWorkComponent, AboutComponent, ContactComponent],
+    OurWorkComponent, AboutComponent, ContactComponent, RouterLinkActive],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
