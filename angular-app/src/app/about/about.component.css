@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-image: url('/assets/49522541687_65603e9d30_o.jpg');
+  background-size: cover; /* Забезпечує повне покриття елементу зображенням */
+  background-position: center;
+  opacity: 0.5; /* 50% прозорості */
+  position: absolute;
+}
+
+.header {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.header__subtitle {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.nav {
+  background: #444;
+  overflow: hidden;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__item {
+  margin: 0;
+}
+
+.nav__link {
+  display: block;
+  color: #fff;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  background: #555;
+}
+
+.section {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+  background-image: url('/assets/49522541687_65603e9d30_o.jpg');
+  opacity: 0.5; /* 50% прозорості */
+  margin-bottom: 2em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section__title {
+  font-size: 2em;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+.section__subtitle {
+  font-size: 1.5em;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1.5em 0;
+}
