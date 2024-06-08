@@ -1,17 +1,28 @@
-.home-container {
-  text-align: center;
-  color: white;
-  background: url('/assets/50944819893_4a017e4f8e_o.jpg') no-repeat center center fixed;
-  background-size: cover;
-  height: 100vh;
+/*.home-container {*/
+/*  text-align: center;*/
+/*  color: white;*/
+/*  background: url('/assets/50944819893_4a017e4f8e_o.jpg') no-repeat center center fixed;*/
+/*  background-size: cover;*/
+/*  height: 100vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
+
+.app-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+.content {
+  position: relative; /* або fixed/absolute, залежно від вашого макету */
+  z-index: 1;
 }
 
 .navbar {
-  position: absolute;
+  position: relative; /* або fixed/absolute, залежно від вашого макету */
+  z-index: 1000;
   top: 0;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
