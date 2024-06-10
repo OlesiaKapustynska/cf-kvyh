@@ -9,9 +9,9 @@ import {OurWorkComponent} from "./our-work/our-work.component";
 export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'contact', component: ContactComponent },
   { path: 'get-involved', component: GetInvolvedComponent },
   { path: 'our-work', component: OurWorkComponent },
+  { path: 'contact', component: ContactComponent },
 ];
 
 @NgModule({
