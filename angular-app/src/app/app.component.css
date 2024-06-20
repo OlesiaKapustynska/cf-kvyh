@@ -16,12 +16,13 @@
 }
 
 .content {
-  position: relative; /* або fixed/absolute, залежно від вашого макету */
+  position: relative;
   z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar {
-  position: relative; /* або fixed/absolute, залежно від вашого макету */
+  position: relative;
   z-index: 1000;
   top: 0;
   width: 100%;
