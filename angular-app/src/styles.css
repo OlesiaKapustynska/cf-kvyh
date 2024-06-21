@@ -5,3 +5,10 @@ body {
   background-size: cover;
   font-family: 'Inter Variable', sans-serif;
 }
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1.5em 0;
+}
