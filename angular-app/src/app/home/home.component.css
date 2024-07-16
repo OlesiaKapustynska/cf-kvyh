@@ -4,3 +4,44 @@
   font-size: 2em;
   color: #EED1D1;
 }
+
+.home-content {
+  padding: 2em;
+  max-width: 9000px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.1);;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  color: #BEC7D5;
+  font-family: 'Inter Variable', serif;
+  font-size: 2em;
+}
+
+.home-content img {
+ max-height: 1000px;
+  max-width: 1000px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.button-container button {
+  padding: 1em;
+  margin: 1em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5em;
+  background-color: #c0392b;
+  color: #EED1D1;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #A93226;
+  color: #FFFFFF;
+}

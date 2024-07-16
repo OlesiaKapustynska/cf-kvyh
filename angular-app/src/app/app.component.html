@@ -1,7 +1,7 @@
 <div class="app-container">
   <nav class="navbar">
     <ul>
-      <li><a routerLink="/" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
       <li><a routerLink="/about" routerLinkActive="active">About</a></li>
       <li><a routerLink="/get-involved" routerLinkActive="active">Get Involved</a></li>
       <li><a routerLink="/our-work" routerLinkActive="active">Our Work</a></li>
